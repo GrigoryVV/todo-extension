@@ -6,7 +6,7 @@ logs
 *.log
 npm-debug.log*
 
-# Build directory
-build/
+# # Build directory
+# build/
 
 .DS_Store
