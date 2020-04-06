@@ -1,3 +1,79 @@
 .container {
-    background-color: aquamarine;
+    z-index: 10000;
+    position: fixed;
+    bottom: 100px;
+    left: 30px;
+    width: 300px;
+    max-height: 500px;
+    overflow-y: auto;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(22, 75, 167, 0.199);
+    color: #164ca7;
+    font-family: sans-serif;
+}
+
+.list {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.container h2 {
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #164ca7;
+    margin: 5px 0;
+}
+
+.windowTop {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.windowName {
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    color: #164ca7;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.input {
+    margin: 15px;
+}
+.input > input {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    color: #164ca7;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
+
+.input > input:focus {
+    outline: none;
+    border: 2px solid rgba(16, 100, 245, 0.6);
+}
+
+.input > input::placeholder {
+    color: #3f63a0;
+}
+
+.addButton {
+    height: 40px;
+    width: 90px;
+    margin: 15px auto 0
 }

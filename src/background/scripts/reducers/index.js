@@ -1,7 +1,9 @@
 import {combineReducers} from 'redux';
 
-import someReducer from './someReducer';
+import todoReducer from './todoReducer';
+import weatherReducer from './weatherReducer';
 
 export default combineReducers({
-  someReducer,
+  todoReducer,
+  weatherReducer
 });

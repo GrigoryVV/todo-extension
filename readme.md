@@ -1,4 +1,4 @@
-# React-Redux Chrome Extension Template
+# My Chrome Extension
 
 ## Instalation
 Clone repo and run **npm install** then run **npm run build** to start of whatching files by webpack.
